@@ -1,0 +1,221 @@
+/* Export Tab Styles */
+.ds-export-tab {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.ds-project-header-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-width: 0;
+}
+
+.ds-save-icon-box {
+  width: 36px;
+  height: 36px;
+  background-color: var(--accent-light);
+  border: 1px solid var(--accent-border);
+  border-radius: var(--radius-md);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.ds-project-title-box {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.ds-project-name-input {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--text-primary);
+  border: 1px solid transparent;
+  border-radius: var(--radius-sm);
+  background: transparent;
+  padding: 1px 4px;
+  outline: none;
+}
+
+.ds-project-name-input:focus {
+  border-color: var(--accent-primary);
+  background: var(--bg-primary);
+}
+
+.ds-project-subtitle {
+  font-size: 11px;
+  color: var(--text-secondary);
+  padding-left: 4px;
+}
+
+.ds-export-meta-pills {
+  margin-top: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.ds-pill-group {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 11px;
+}
+
+.ds-pill-label {
+  color: var(--text-secondary);
+  min-width: 65px;
+  flex-shrink: 0;
+}
+
+.ds-fields-pills-row {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  flex-wrap: wrap;
+}
+
+.ds-field-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 1px 6px;
+  background-color: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-sm);
+  font-size: 10px;
+}
+
+.ds-field-pill code {
+  font-family: var(--font-mono);
+  color: #1d4ed8;
+}
+
+/* Format Segmented Tabs */
+.ds-format-segmented-nav {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  background-color: var(--bg-primary);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  padding: 3px;
+}
+
+.ds-format-btn {
+  flex: 1;
+  height: 28px;
+  font-size: 11px;
+  font-weight: 500;
+  color: var(--text-secondary);
+  border-radius: var(--radius-sm);
+  transition: all 0.15s;
+}
+
+.ds-format-btn:hover {
+  color: var(--text-primary);
+}
+
+.ds-format-btn.active {
+  background-color: var(--accent-primary);
+  color: #ffffff;
+  font-weight: 600;
+}
+
+/* Dark Code Block */
+.ds-code-editor-card {
+  background-color: var(--bg-code);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+}
+
+.ds-code-editor-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 6px 10px;
+  background-color: var(--bg-code-header);
+  border-bottom: 1px solid #334155;
+}
+
+.ds-code-editor-title {
+  font-size: 11px;
+  font-weight: 600;
+  color: #94A3B8;
+  font-family: var(--font-mono);
+}
+
+.ds-code-copy-btn {
+  color: #94A3B8;
+  width: 24px;
+  height: 24px;
+}
+
+.ds-code-copy-btn:hover {
+  background-color: #334155;
+  color: #F8FAFC;
+}
+
+.ds-code-block {
+  padding: 10px 12px;
+  margin: 0;
+  max-height: 240px;
+  overflow: auto;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  line-height: 1.45;
+  color: #38BDF8;
+}
+
+.ds-code-block code {
+  color: #F1F5F9;
+  white-space: pre;
+}
+
+.ds-export-actions-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* Recent Selectors History */
+.ds-recent-list {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.ds-recent-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 4px 6px;
+  background-color: var(--bg-secondary);
+  border-radius: var(--radius-sm);
+  font-size: 11px;
+}
+
+.ds-recent-clock {
+  color: var(--text-muted);
+  flex-shrink: 0;
+}
+
+.ds-recent-selector {
+  font-family: var(--font-mono);
+  color: #1d4ed8;
+  flex: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.ds-recent-time {
+  font-size: 10px;
+  color: var(--text-muted);
+  flex-shrink: 0;
+}

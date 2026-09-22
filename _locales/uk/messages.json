@@ -1,0 +1,10 @@
+{
+  "extensionName": {
+    "message": "DOM Scout",
+    "description": "Назва розширення"
+  },
+  "extensionDescription": {
+    "message": "Інструмент розробника для інспекції DOM-структур та створення надійних веб-парсерів",
+    "description": "Опис розширення"
+  }
+}

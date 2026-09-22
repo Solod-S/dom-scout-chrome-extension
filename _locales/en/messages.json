@@ -1,0 +1,10 @@
+{
+  "extensionName": {
+    "message": "DOM Scout",
+    "description": "The name of the extension"
+  },
+  "extensionDescription": {
+    "message": "Developer toolkit for inspecting DOM structures and building reliable web scrapers",
+    "description": "Description of the extension"
+  }
+}
